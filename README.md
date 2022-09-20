@@ -27,7 +27,7 @@ Uso:
 
 ### Opcional (Publicarlo en linea)
  
- * Puedes subirlo a github pages.
+ * Puedes subirlo a github pages ([Si no sabes como: aqui te describo los pasos exactos[https://tmcybers.com])
  * O usar una plataforma como netlify '[https://www.netlify.com]'
 
 
