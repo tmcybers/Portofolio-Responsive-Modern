@@ -1,3 +1,15 @@
+
+
+![Captura de pantalla de 2022-09-20 08-30-32](https://user-images.githubusercontent.com/97669969/191183922-8550c4c0-b48c-4aca-90b1-8b9e85df653c.png)
+
+![Captura de pantalla de 2022-09-20 08-31-13](https://user-images.githubusercontent.com/97669969/191183934-41c70247-41b0-48e9-ba14-b064847d62c4.png)
+
+
+
+
+
+
+
 * Portofolio creado con HTML, CSS, SASS, JS.
 * Respuesta completa de alto grado con todos los dispositivos moviles, tablets y  dispositivos desktop.
 * Animaciones con CSS.
