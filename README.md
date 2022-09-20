@@ -23,8 +23,12 @@ Uso:
 - En la carpeta ``assets/js`` abre el archivo ``main.js`` y busca ``EDITAR``, ahora cambia los campos que te indica.
 - Puedes reeemplazar tu ``CV`` en la carpeta ``assets/pdf``.
 - Reemplaza las imágenes en ``assets/img`` manteniendo el mismo nombre y formato de archivo.
-- Guarda todo los cambios y sube la carpeta a un repositorio de Github y activa Github Pages en las configuraciones.
-- Listo, ahora compartelo con tus colegas.
+- Guarda todo los cambios y sube la carpeta a un repositorio de Github.
+
+### Opcional (Publicarlo en linea)
+ 
+ * Puedes subirlo a github pages.
+ * O usar una plataforma como netlify '[https://www.netlify.com]'
 
 
 
