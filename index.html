@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- EDITAR - AGREGA TU NOMBRE -->
+        <title>Anton Merisan (aka TMCyber) | Diseña tu futuro</title> 
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Botón para cambiar el tema -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- EDITAR - Cambialo por tu imagen, reemplaza el archivo "perfil.png" dentro de la carpeta assets/img/ -->
+                            <img src="assets/img/tmcyber-perfil3.png">
+                        </div>
+                    </div>
+                    
+                    <!-- EDITAR - Agrega tu nombre debajo -->
+                    <h2 class="profile__name">Anton Merisan (TMCyber)</h2>
+                    <h3 class="profile__profession">Desarrollador Web</h3>
+                    
+                    <!-- EDITAR - Cambia tu nombre de usuario de cada plataforma -->
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/tmcyber_" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.twitter.com/TMerisan" target="_blank" class="profile__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="https://github.com/tmcybers" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+                
+                <!-- OPCIONAL - Puedes descomentar esto si te gusta, jeje. -->
+                 <!--<div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">1</h3>
+                        <p class="profile__info-description">
+                            Año de <br> trabajo
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+5</h3>
+                        <p class="profile__info-description">
+                            Proyectos <br> Completados
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">3</h3>
+                        <p class="profile__info-description">
+                            Clientes <br> satisfechos
+                        </p>
+                    </div>
+                </div>-->
+
+                <div class="profile__buttons">
+                    <!-- EDITAR - Puedes agregar tu sitio web o comentalo si no lo necesitas-->
+                    <a href="https://tmcybers.com" target="_blank" class="button">
+                        <span class="button__text">
+                            Blog <i class="ri-arrow-right-up-line"></i>
+                        </span>
+                    </a>
+                    
+                    <!-- OPCIONAL - Si necesitas agregar tu CV descomenta esto -->
+                    <!-- <a download="" href="/assets/pdf/tmcyber.pdf" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a> -->
+
+                    <div class="profile__buttons-small">
+                        <!-- EDITAR - Agrega tu código de país y tu número de teléfono -->
+                        <a href="https://api.whatsapp.com/send?phone=0034643152808&text=Hola, más información!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- EDITAR - Agrega tu nombre de usuario de Messenger -->
+                        <a href="https://m.me/tmcyber" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                        <!-- EDITAR - Si aceptas donaciones por Ko-Fi cambia tu nombre de usuaurio -->
+                        <a href="https://ko-fi.com/tmcyber" target="_blank" class="button button__small button__gray">
+                            <i class="ri-hand-coin-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button" data-target="#projects">
+                        Proyectos
+                    </button>
+                    <button class="filters__button filter-tab-active" data-target="#skills">
+                        Habilidades
+                    </button>
+                    <button class="filters__button" data-target="#repos">
+                        Repositorios
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- EDITAR - Puedes cambiar la imagen con una rectangular (Ej: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/nftproject.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">nft fully responsive modern web</span>
+                                    <h3 class="projects__title">NFT Marketplace</h3>
+                                    <a href="https://cachecuantico.com" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- OPCIONAL - Puedes descomentar esto si necesitas agregar más proyectos-->
+
+                        <article class="projects__card">
+                            <img src="assets/img/academyweb (copia).png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Academy Modern Website</span>
+                                    <h3 class="projects__title">Academy Training web</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/freelancerweb (copia).png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Freelancer Web Portofolio</span>
+                                    <h3 class="projects__title">Modern Responsive Blog</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/blogdelvinoweb (copia).png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Blog DelVino Modern Responsive</span>
+                                    <h3 class="projects__title">Wine Blog Modern</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!--<article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Design</span>
+                                    <h3 class="projects__title">Music app design</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>-->
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <!-- EDITAR - Cámbialo dependiendo de tus Habilidades -->
+                    <div class="skills__content grid filters__active" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Desarrollador Frontend</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Tailwind</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Otras Tecnologías</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <!--<div>
+                                            <h3 class="skills__name">C++</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>-->
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Linux</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Node Js</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== REPOS ================== -->
+                    <div class="repos__content grid" data-content id="repos">
+                        <ul class="repos__list"></ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <!-- EDITAR - Cambialo por tu nombre -->
+            <span class="footer__copy">
+                &#169; Anton Merisan [TMCyber]. All rigths reserved 2022.
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
